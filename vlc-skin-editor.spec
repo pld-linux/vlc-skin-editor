@@ -8,6 +8,8 @@ Group:		Networking
 Source0:	http://download.videolan.org/videolan/skin-editor/%{version}/VLCSkinEditor_unix.tar.gz
 # Source0-md5:	62ea5993ddcd2b926b89fa3ea31b8d53
 URL:		http://www.videolan.org/vlc/skineditor.html
+Requires:	/usr/bin/java
+Requires:	jre
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
